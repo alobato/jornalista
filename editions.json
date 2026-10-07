@@ -1,0 +1,28 @@
+{
+ "editions": [
+  {
+   "date": "2026-10-07",
+   "weekday": "qua",
+   "weekday_long": "quarta-feira",
+   "lead_headline": "OpenAI publica centenas de resultados matemáticos produzidos por um modelo interno",
+   "lead_url": "https://openai.com/index/sharing-ai-progress-in-mathematics/",
+   "counts": {
+    "tech": 20,
+    "ph": 10,
+    "gh": 25,
+    "yt": 55
+   },
+   "ph_top": {
+    "name": "Rill Browser",
+    "url": "https://www.producthunt.com/posts/rill-browser",
+    "score": 413,
+    "tagline_pt": "O navegador em que o Claude Code e o Codex trabalham ao seu lado."
+   },
+   "ph_day": "06/10",
+   "yt_days": "06/10",
+   "ph_status": "final",
+   "url": "edicoes/2026-10-07.html",
+   "preview": "previews/2026-10-07.jpg"
+  }
+ ]
+}
