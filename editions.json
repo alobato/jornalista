@@ -1,6 +1,30 @@
 {
  "editions": [
   {
+   "date": "2026-10-08",
+   "weekday": "qui",
+   "weekday_long": "quinta-feira",
+   "lead_headline": "Vitalik Buterin apoia “modo bunker” para cripto diante do risco de a matemática turbinada por IA quebrar a criptografia",
+   "lead_url": "https://cointelegraph.com/news/justin-drake-urges-crypto-bunker-mode-as-ai-could-break-wallet-security-within-months",
+   "counts": {
+    "tech": 20,
+    "ph": 10,
+    "gh": 25,
+    "yt": 48
+   },
+   "ph_top": {
+    "name": "IrisGo for Solopreneurs",
+    "url": "https://www.producthunt.com/products/irisgo-public-beta",
+    "score": 514,
+    "tagline_pt": "Automação de fluxos com IA: mostre uma vez e deixe rodar."
+   },
+   "ph_day": "07/10",
+   "yt_days": "07/10",
+   "ph_status": "final",
+   "url": "edicoes/2026-10-08.html",
+   "preview": "previews/2026-10-08.jpg"
+  },
+  {
    "date": "2026-10-07",
    "weekday": "qua",
    "weekday_long": "quarta-feira",
