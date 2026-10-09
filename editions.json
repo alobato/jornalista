@@ -1,6 +1,30 @@
 {
  "editions": [
   {
+   "date": "2026-10-09",
+   "weekday": "sex",
+   "weekday_long": "sexta-feira",
+   "lead_headline": "Três pesquisadores de segurança demitidos pela OpenAI dizem que foram afastados por “priorizar a segurança”; empresa alega quebra de confiança",
+   "lead_url": "https://www.cnbc.com/2026/10/09/openai-fired-researchers-ai-concerns.html",
+   "counts": {
+    "tech": 20,
+    "ph": 10,
+    "gh": 25,
+    "yt": 63
+   },
+   "ph_top": {
+    "name": "OpenSwarm",
+    "url": "https://www.producthunt.com/products/openswarm-3",
+    "score": 371,
+    "tagline_pt": "Um enxame de agentes, no mesmo lugar onde você trabalha."
+   },
+   "ph_day": "08/10",
+   "yt_days": "08/10",
+   "ph_status": "final",
+   "url": "edicoes/2026-10-09.html",
+   "preview": "previews/2026-10-09.jpg"
+  },
+  {
    "date": "2026-10-08",
    "weekday": "qui",
    "weekday_long": "quinta-feira",
