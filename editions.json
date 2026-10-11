@@ -1,6 +1,30 @@
 {
  "editions": [
   {
+   "date": "2026-10-11",
+   "weekday": "dom",
+   "weekday_long": "domingo",
+   "lead_headline": "Satya Nadella diz que sistemas de “superinteligência” são caixas-pretas e que empresas devem tratá-los como comprometidos",
+   "lead_url": "https://www.theverge.com/ai-artificial-intelligence/1009337/satya-nadella-says-we-should-assume-all-ai-models-are-compromised",
+   "counts": {
+    "tech": 17,
+    "ph": 10,
+    "gh": 25,
+    "yt": 49
+   },
+   "ph_top": {
+    "name": "Onepin",
+    "url": "https://www.producthunt.com/products/onepin",
+    "score": 439,
+    "tagline_pt": "Narração por IA que pronuncia certo cada nome, preço e data."
+   },
+   "ph_day": "10/10",
+   "yt_days": "10/10",
+   "ph_status": "final",
+   "url": "edicoes/2026-10-11.html",
+   "preview": "previews/2026-10-11.jpg"
+  },
+  {
    "date": "2026-10-10",
    "weekday": "sáb",
    "weekday_long": "sábado",
