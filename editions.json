@@ -1,6 +1,30 @@
 {
  "editions": [
   {
+   "date": "2026-10-12",
+   "weekday": "seg",
+   "weekday_long": "segunda-feira",
+   "lead_headline": "Apple prepara ofensiva na casa inteligente com a central HomeView, novo HomePod mini e nova Apple TV",
+   "lead_url": "https://www.bloomberg.com/news/newsletters/2026-10-11/apple-smart-home-launch-oct-13-plans-homeview-has-mid-november-release",
+   "counts": {
+    "tech": 20,
+    "ph": 10,
+    "gh": 25,
+    "yt": 55
+   },
+   "ph_top": {
+    "name": "HireKey",
+    "url": "https://www.producthunt.com/products/hirekey",
+    "score": 282,
+    "tagline_pt": "Seu copiloto de IA para busca de emprego em tech, com a visão de recrutadores."
+   },
+   "ph_day": "11/10",
+   "yt_days": "11/10",
+   "ph_status": "final",
+   "url": "edicoes/2026-10-12.html",
+   "preview": "previews/2026-10-12.jpg"
+  },
+  {
    "date": "2026-10-11",
    "weekday": "dom",
    "weekday_long": "domingo",
