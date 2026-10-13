@@ -1,6 +1,30 @@
 {
  "editions": [
   {
+   "date": "2026-10-13",
+   "weekday": "ter",
+   "weekday_long": "terça-feira",
+   "lead_headline": "Meta lança os modelos Muse Wonder e Muse Wonder Full e diz ter alcançado a fronteira da IA",
+   "lead_url": "https://research.meta.ai/blog/muse-wonder",
+   "counts": {
+    "tech": 20,
+    "ph": 10,
+    "gh": 25,
+    "yt": 73
+   },
+   "ph_top": {
+    "name": "Google EmbeddingGemma 2",
+    "url": "https://www.producthunt.com/products/embeddinggemma-2",
+    "score": 290,
+    "tagline_pt": "Um modelo de embeddings multimodal, aberto e leve."
+   },
+   "ph_day": "12/10",
+   "yt_days": "12/10",
+   "ph_status": "final",
+   "url": "edicoes/2026-10-13.html",
+   "preview": "previews/2026-10-13.jpg"
+  },
+  {
    "date": "2026-10-12",
    "weekday": "seg",
    "weekday_long": "segunda-feira",
