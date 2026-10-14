@@ -1,6 +1,30 @@
 {
  "editions": [
   {
+   "date": "2026-10-14",
+   "weekday": "qua",
+   "weekday_long": "quarta-feira",
+   "lead_headline": "OpenAI diz que o FBI prendeu um funcionário que escondeu um gravador numa sala de reuniões de executivos",
+   "lead_url": "https://sfstandard.com/2026/10/13/openai-engineer-arrested-alleged-bugging-executive-conference-room/",
+   "counts": {
+    "tech": 20,
+    "ph": 10,
+    "gh": 25,
+    "yt": 63
+   },
+   "ph_top": {
+    "name": "Articos MCP",
+    "url": "https://www.producthunt.com/products/articos",
+    "score": 328,
+    "tagline_pt": "Veja como compradores simulados reagem, direto no seu agente."
+   },
+   "ph_day": "13/10",
+   "yt_days": "13/10",
+   "ph_status": "final",
+   "url": "edicoes/2026-10-14.html",
+   "preview": "previews/2026-10-14.jpg"
+  },
+  {
    "date": "2026-10-13",
    "weekday": "ter",
    "weekday_long": "terça-feira",
