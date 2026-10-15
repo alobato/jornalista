@@ -1,6 +1,30 @@
 {
  "editions": [
   {
+   "date": "2026-10-15",
+   "weekday": "qui",
+   "weekday_long": "quinta-feira",
+   "lead_headline": "Anthropic diz a investidores que faturou US$ 16,8 bilhões no 3º trimestre e teve lucro ajustado, às vésperas do IPO",
+   "lead_url": "https://www.ft.com/content/11632d03-358c-454b-af95-d06d4072932b",
+   "counts": {
+    "tech": 20,
+    "ph": 10,
+    "gh": 25,
+    "yt": 65
+   },
+   "ph_top": {
+    "name": "Pancake",
+    "url": "https://www.producthunt.com/products/pancake-6",
+    "score": 557,
+    "tagline_pt": "O Vercel do go-to-market."
+   },
+   "ph_day": "14/10",
+   "yt_days": "14/10",
+   "ph_status": "final",
+   "url": "edicoes/2026-10-15.html",
+   "preview": "previews/2026-10-15.jpg"
+  },
+  {
    "date": "2026-10-14",
    "weekday": "qua",
    "weekday_long": "quarta-feira",
