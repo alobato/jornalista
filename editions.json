@@ -1,6 +1,30 @@
 {
  "editions": [
   {
+   "date": "2026-10-16",
+   "weekday": "sex",
+   "weekday_long": "sexta-feira",
+   "lead_headline": "Meta lança o Muse Spark Open, modelo aberto de 816B parâmetros otimizado para Mac Studio M5 Ultra",
+   "lead_url": "https://research.meta.ai/blog/muse-spark-open",
+   "counts": {
+    "tech": 20,
+    "ph": 10,
+    "gh": 25,
+    "yt": 64
+   },
+   "ph_top": {
+    "name": "Talanoa",
+    "url": "https://www.producthunt.com/products/talanoa-2",
+    "score": 312,
+    "tagline_pt": "E-mail que parece um chat."
+   },
+   "ph_day": "15/10",
+   "yt_days": "15/10",
+   "ph_status": "final",
+   "url": "edicoes/2026-10-16.html",
+   "preview": "previews/2026-10-16.jpg"
+  },
+  {
    "date": "2026-10-15",
    "weekday": "qui",
    "weekday_long": "quinta-feira",
