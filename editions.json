@@ -1,6 +1,30 @@
 {
  "editions": [
   {
+   "date": "2026-10-18",
+   "weekday": "dom",
+   "weekday_long": "domingo",
+   "lead_headline": "DeepSeek lança o V4.1-Flash-1017, atualização mais rápida e enxuta do seu modelo",
+   "lead_url": "https://www.bloomberg.com/news/articles/2026-10-17/deepseek-pushes-out-updated-ai-model-it-says-is-faster-leaner",
+   "counts": {
+    "tech": 20,
+    "ph": 10,
+    "gh": 25,
+    "yt": 61
+   },
+   "ph_top": {
+    "name": "NitroStack",
+    "url": "https://www.producthunt.com/products/nitrostack",
+    "score": 293,
+    "tagline_pt": "Crie, teste e publique servidores MCP num só lugar."
+   },
+   "ph_day": "17/10",
+   "yt_days": "17/10",
+   "ph_status": "final",
+   "url": "edicoes/2026-10-18.html",
+   "preview": "previews/2026-10-18.jpg"
+  },
+  {
    "date": "2026-10-16",
    "weekday": "sex",
    "weekday_long": "sexta-feira",
