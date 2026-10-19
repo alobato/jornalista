@@ -1,6 +1,30 @@
 {
  "editions": [
   {
+   "date": "2026-10-19",
+   "weekday": "seg",
+   "weekday_long": "segunda-feira",
+   "lead_headline": "Anthropic destina 5% das ações a um novo Fundo de Benefício Público",
+   "lead_url": "https://www.anthropic.com/news/public-benefit-fund",
+   "counts": {
+    "tech": 20,
+    "ph": 10,
+    "gh": 25,
+    "yt": 65
+   },
+   "ph_top": {
+    "name": "Inbox Zero",
+    "url": "https://www.producthunt.com/products/inbox-zero-2",
+    "score": 334,
+    "tagline_pt": "Alternativa de código aberto ao Superhuman."
+   },
+   "ph_day": "18/10",
+   "yt_days": "18/10",
+   "ph_status": "final",
+   "url": "edicoes/2026-10-19.html",
+   "preview": "previews/2026-10-19.jpg"
+  },
+  {
    "date": "2026-10-18",
    "weekday": "dom",
    "weekday_long": "domingo",
