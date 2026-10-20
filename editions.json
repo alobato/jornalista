@@ -1,6 +1,30 @@
 {
  "editions": [
   {
+   "date": "2026-10-20",
+   "weekday": "ter",
+   "weekday_long": "terça-feira",
+   "lead_headline": "Inception lança o Mercury 3, LLM de difusão que diz superar GPT-6 Luna e Claude Haiku 5.5 em tarefas agênticas",
+   "lead_url": "https://www.thedeepview.com/articles/why-inception-s-mercury-3-upends-ai-economics",
+   "counts": {
+    "tech": 20,
+    "ph": 10,
+    "gh": 25,
+    "yt": 67
+   },
+   "ph_top": {
+    "name": "Beam.win",
+    "url": "https://www.producthunt.com/products/beam-win",
+    "score": 354,
+    "tagline_pt": "Rode agentes de IA em um Mac e use as janelas dele em outro."
+   },
+   "ph_day": "19/10",
+   "yt_days": "19/10",
+   "ph_status": "final",
+   "url": "edicoes/2026-10-20.html",
+   "preview": "previews/2026-10-20.jpg"
+  },
+  {
    "date": "2026-10-19",
    "weekday": "seg",
    "weekday_long": "segunda-feira",
