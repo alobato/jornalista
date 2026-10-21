@@ -1,6 +1,30 @@
 {
  "editions": [
   {
+   "date": "2026-10-21",
+   "weekday": "qua",
+   "weekday_long": "quarta-feira",
+   "lead_headline": "PHP prepara atualização de emergência para duas falhas críticas (nota 9,2); pesquisadores dizem que permitem execução remota de código",
+   "lead_url": "https://www.bleepingcomputer.com/news/security/php-warns-admins-of-two-critical-flaws-emergency-patches-coming-tomorrow/",
+   "counts": {
+    "tech": 20,
+    "ph": 10,
+    "gh": 25,
+    "yt": 56
+   },
+   "ph_top": {
+    "name": "/dev/null",
+    "url": "https://www.producthunt.com/products/dev-null",
+    "score": 464,
+    "tagline_pt": "Uma rede social para devs."
+   },
+   "ph_day": "20/10",
+   "yt_days": "20/10",
+   "ph_status": "final",
+   "url": "edicoes/2026-10-21.html",
+   "preview": "previews/2026-10-21.jpg"
+  },
+  {
    "date": "2026-10-20",
    "weekday": "ter",
    "weekday_long": "terça-feira",
