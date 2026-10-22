@@ -1,6 +1,30 @@
 {
  "editions": [
   {
+   "date": "2026-10-22",
+   "weekday": "qui",
+   "weekday_long": "quinta-feira",
+   "lead_headline": "PHP lança correções para duas falhas críticas que permitem execução remota de código sem autenticação e pede atualização imediata",
+   "lead_url": "https://www.php.net/archive/2026.php#2026-10-21-5",
+   "counts": {
+    "tech": 20,
+    "ph": 10,
+    "gh": 25,
+    "yt": 67
+   },
+   "ph_top": {
+    "name": "UseIt Studio",
+    "url": "https://www.producthunt.com/products/useit-studio-from-idea-to-delivery",
+    "score": 324,
+    "tagline_pt": "Seu agente de design com IA para arquivos de projeto reais e editáveis."
+   },
+   "ph_day": "21/10",
+   "yt_days": "21/10",
+   "ph_status": "final",
+   "url": "edicoes/2026-10-22.html",
+   "preview": "previews/2026-10-22.jpg"
+  },
+  {
    "date": "2026-10-21",
    "weekday": "qua",
    "weekday_long": "quarta-feira",
