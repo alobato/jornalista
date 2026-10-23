@@ -1,6 +1,30 @@
 {
  "editions": [
   {
+   "date": "2026-10-23",
+   "weekday": "sex",
+   "weekday_long": "sexta-feira",
+   "lead_headline": "Depois do PHP2Shell, a Amazon diz ter visto exploração das falhas do PHP desde 17/10, antes da divulgação, e o mantenedor voluntário que fez os patches vira personagem",
+   "lead_url": "https://www.theatlantic.com/technology/2026/10/man-who-saved-internet-php-vulnerability/689123/",
+   "counts": {
+    "tech": 20,
+    "ph": 10,
+    "gh": 25,
+    "yt": 63
+   },
+   "ph_top": {
+    "name": "DeepCell",
+    "url": "https://www.producthunt.com/products/deepcell",
+    "score": 334,
+    "tagline_pt": "Seu kit de sobrevivência para prazos no trabalho de escritório."
+   },
+   "ph_day": "22/10",
+   "yt_days": "22/10",
+   "ph_status": "final",
+   "url": "edicoes/2026-10-23.html",
+   "preview": "previews/2026-10-23.jpg"
+  },
+  {
    "date": "2026-10-22",
    "weekday": "qui",
    "weekday_long": "quinta-feira",
