@@ -139,10 +139,15 @@ aside .box .sub{font-size:12.5px;color:var(--muted);margin:0 0 10px}
 .gh-note p{margin:0}
 .gh-note a{color:var(--accent-ink);font-weight:600;white-space:nowrap}
 .gh-note .tag{flex:none;font:700 10px/1 var(--sans);letter-spacing:.14em;text-transform:uppercase;color:var(--accent);border:1px solid var(--accent);padding:4px 6px;border-radius:3px}
+.gh-cont{margin:0 0 14px;font-size:13.5px;line-height:1.6;color:var(--ink2)}
+.gh-cont b{font-weight:700;color:var(--ink)}
+.gh-cont a{color:var(--accent-ink);font-weight:600;border-bottom:1px dotted var(--rule2)}
+.gh-cont a:hover{border-color:var(--accent)}
+.gh-none{color:var(--muted);font-style:italic}
 .gh-list{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 36px}
 .gh-row{display:grid;grid-template-columns:34px minmax(0,1fr) auto;gap:4px 12px;align-items:start;padding:16px 0;border-top:1px solid var(--rule)}
 .gh-rank{font:800 22px/1.05 var(--serif);color:var(--muted);font-variant-numeric:tabular-nums;text-align:right}
-.gh-row:nth-child(-n+3) .gh-rank{color:var(--accent)}
+.gh-row.gh-top .gh-rank{color:var(--accent)}
 .gh-name{font:700 17px/1.25 var(--serif);letter-spacing:-.005em;word-break:break-word}
 .gh-name:hover{text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:3px}
 .gh-owner{font-weight:500;color:var(--muted)}
@@ -165,6 +170,21 @@ aside .box .sub{font-size:12.5px;color:var(--muted);margin:0 0 10px}
 .fchip b{font-weight:600;color:var(--muted);margin-left:3px}
 .fchip:hover{border-color:var(--ink2)}
 .fchip.on{background:var(--ink);color:var(--paper);border-color:var(--ink)} .fchip.on b{color:inherit;opacity:.7}
+.ytt{margin:0 0 22px;padding:16px 18px 6px;background:var(--paper);border:1px solid var(--rule);border-left:3px solid var(--accent);border-radius:10px;box-shadow:var(--shadow)}
+.ytt-k{font:700 11px/1.2 var(--sans);letter-spacing:.08em;text-transform:uppercase;color:var(--accent-ink)}
+.ytt-i{margin:6px 0 4px;font:500 14px/1.45 var(--sans);color:var(--ink2)}
+.ytt ul{list-style:none;margin:8px 0 0;padding:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:4px 26px}
+.ytt li{padding:10px 0 12px;border-top:1px solid var(--rule)}
+.ytt-h{display:flex;justify-content:space-between;align-items:baseline;gap:10px}
+.ytt-h b{font:600 17px/1.25 var(--serif)}
+.ytt-n{flex:none;font:600 11px/1 var(--sans);color:var(--muted);background:var(--chip);padding:4px 7px;border-radius:999px}
+.ytt li p{margin:5px 0 6px;font:400 14px/1.45 var(--sans);color:var(--ink2)}
+.ytt-ch{font:700 10.5px/1.4 var(--sans);letter-spacing:.05em;text-transform:uppercase;color:var(--accent-ink);margin-bottom:5px}
+.ytt-vs{display:flex;flex-direction:column;gap:3px}
+.ytt-v{display:flex;align-items:center;gap:6px;font:500 12.5px/1.35 var(--sans);color:var(--muted);text-decoration:none;min-width:0}
+.ytt-v span{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.ytt-v svg{flex:none;width:12px;height:12px}
+.ytt-v:hover{color:var(--ink)}.ytt-v:hover span{text-decoration:underline}
 .yt-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:26px 20px}
 .yt{display:flex;flex-direction:column;gap:10px}
 .yt[hidden]{display:none}
@@ -269,7 +289,7 @@ footer b{font:800 18px/1 var(--serif);color:var(--ink)}
   <span class="brand">Jornalista<span style="color:var(--accent)">.</span></span>
   <a class="tab" href="#tech">Tecnologia<span class="n">20</span></a>
   <a class="tab" href="#ph">Product Hunt<span class="n">10</span></a>
-  <a class="tab" href="#gh">GitHub<span class="n">25</span></a>
+  <a class="tab" href="#gh">GitHub<span class="n">14</span></a>
   <a class="tab" href="#yt">YouTube<span class="n">63</span></a>
   <span class="sp"></span>
   <button id="theme" title="Alternar tema claro/escuro" aria-label="Alternar tema"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg></button>
@@ -576,21 +596,12 @@ footer b{font:800 18px/1 var(--serif);color:var(--ink)}
 <section id="gh">
   <div class="sec-head">
     <h2><small>Seção 3</small>Trending no GitHub</h2>
-    <p>Os 25 repositórios em alta no GitHub segundo o Trendshift, ranking ao vivo de 23/10 (UTC).</p>
+    <p>14 repositórios novos entre os 25 em alta no GitHub segundo o Trendshift, ranking ao vivo de 23/10 (UTC); 11 seguem da edição anterior.</p>
   </div>
-  <div class="gh-note"><span class="tag">Ao vivo</span><p>Ranking diário do Trendshift para 23/10 (dia UTC), capturado às 07:54 de Brasília. A lista é ao vivo: posições e números seguem mudando até o fim do dia UTC (21h de Brasília). A ordem segue a pontuação de tendência do site; “+N ★ hoje” são as estrelas ganhas no dia. <a href="https://trendshift.io/" target="_blank" rel="noopener noreferrer">Fonte: trendshift.io ↗</a></p></div>
+  <div class="gh-note"><span class="tag">Ao vivo</span><p>Ranking diário do Trendshift para 23/10 (dia UTC), capturado às 07:54 de Brasília. A lista é ao vivo: posições e números seguem mudando até o fim do dia UTC (21h de Brasília). A ordem segue a pontuação de tendência do site; “+N ★ hoje” são as estrelas ganhas no dia. Aqui só entram os repositórios novos em relação à edição anterior; o número é a posição no ranking de hoje. <a href="https://trendshift.io/" target="_blank" rel="noopener noreferrer">Fonte: trendshift.io ↗</a></p></div>
+  <p class="gh-cont"><b>Seguem em alta desde a edição anterior (22/10):</b> <a href="https://github.com/peach-mitao/peach" target="_blank" rel="noopener noreferrer">peach-mitao/peach</a>, <a href="https://github.com/Gathin23/cleanyourtv" target="_blank" rel="noopener noreferrer">Gathin23/cleanyourtv</a>, <a href="https://github.com/morluto/rea" target="_blank" rel="noopener noreferrer">morluto/rea</a>, <a href="https://github.com/cloudflare/security-audit-skill" target="_blank" rel="noopener noreferrer">cloudflare/security-audit-skill</a>, <a href="https://github.com/deepseek-ai/deepseek-harness" target="_blank" rel="noopener noreferrer">deepseek-ai/deepseek-harness</a>, <a href="https://github.com/pengchujin/aerial-tv" target="_blank" rel="noopener noreferrer">pengchujin/aerial-tv</a>, <a href="https://github.com/jbiaojerry/ebook-treasure-chest" target="_blank" rel="noopener noreferrer">jbiaojerry/ebook-treasure-chest</a>, <a href="https://github.com/Graphify-Labs/graphify" target="_blank" rel="noopener noreferrer">Graphify-Labs/graphify</a>, <a href="https://github.com/Ebony-Vinyl/dsh-our-free-model" target="_blank" rel="noopener noreferrer">Ebony-Vinyl/dsh-our-free-model</a>, <a href="https://github.com/DietrichGebert/ponytail" target="_blank" rel="noopener noreferrer">DietrichGebert/ponytail</a>, <a href="https://github.com/hugohe3/ppt-master" target="_blank" rel="noopener noreferrer">hugohe3/ppt-master</a>.</p>
   <ol class="gh-list">
-<li class="gh-row">
-  <span class="gh-rank">1</span>
-  <div class="gh-body">
-    <a class="gh-name" href="https://github.com/peach-mitao/peach" target="_blank" rel="noopener noreferrer"><span class="gh-owner">peach-mitao/</span>peach</a>
-    <p class="gh-pt">Peach: sistema de mídia pessoal para um único usuário, local-first.</p>
-    <p class="gh-en">Peach 蜜桃：单用户、本地优先的个人媒体系统 · Single-user, local-first personal media system</p>
-    <div class="gh-meta"><span class="gh-lang"><i style="background:#3572A5"></i>Python</span><span title="Estrelas no total"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2.5l2.9 6 6.6.9-4.8 4.6 1.2 6.5L12 17.4 6.1 20.5l1.2-6.5L2.5 9.4l6.6-.9z"/></svg>6.206</span><span title="Forks no total"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="18" r="2.6"/><circle cx="6" cy="6" r="2.6"/><circle cx="18" cy="6" r="2.6"/><path d="M18 8.6V10a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 6 10V8.6M12 11.5v3.9"/></svg>165</span><a class="gh-ts" href="https://trendshift.io/repositories/309486" target="_blank" rel="noopener noreferrer" title="Ver no Trendshift">trendshift ↗</a></div>
-  </div>
-  <span class="gh-today" title="Estrelas ganhas hoje (dia UTC) · pontuação Trendshift 26812"><b>+3.870</b><small>★ hoje</small></span>
-</li>
-<li class="gh-row">
+<li class="gh-row gh-top">
   <span class="gh-rank">2</span>
   <div class="gh-body">
     <a class="gh-name" href="https://github.com/EthanArbuckle/fairplay-decrypt" target="_blank" rel="noopener noreferrer"><span class="gh-owner">EthanArbuckle/</span>fairplay-decrypt</a>
@@ -600,7 +611,7 @@ footer b{font:800 18px/1 var(--serif);color:var(--ink)}
   </div>
   <span class="gh-today" title="Estrelas ganhas hoje (dia UTC) · pontuação Trendshift 5240"><b>+655</b><small>★ hoje</small></span>
 </li>
-<li class="gh-row">
+<li class="gh-row gh-top">
   <span class="gh-rank">3</span>
   <div class="gh-body">
     <a class="gh-name" href="https://github.com/seedds/nxnative" target="_blank" rel="noopener noreferrer"><span class="gh-owner">seedds/</span>nxnative</a>
@@ -611,16 +622,6 @@ footer b{font:800 18px/1 var(--serif);color:var(--ink)}
   <span class="gh-today" title="Estrelas ganhas hoje (dia UTC) · pontuação Trendshift 4992"><b>+624</b><small>★ hoje</small></span>
 </li>
 <li class="gh-row">
-  <span class="gh-rank">4</span>
-  <div class="gh-body">
-    <a class="gh-name" href="https://github.com/Gathin23/cleanyourtv" target="_blank" rel="noopener noreferrer"><span class="gh-owner">Gathin23/</span>cleanyourtv</a>
-    <p class="gh-pt">Sua TV, sem os anúncios. Remove o bloatware de qualquer Android TV via ADB e entrega um launcher limpo inspirado no tvOS. Feito numa tarde com o Claude Code.</p>
-    <p class="gh-en">Your TV, minus the ads. Debloat any Android TV over ADB and give it a clean, tvOS-inspired launcher. Built in an afternoon with Claude Code.</p>
-    <div class="gh-meta"><span class="gh-lang"><i style="background:#b07219"></i>Java</span><span title="Estrelas no total"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2.5l2.9 6 6.6.9-4.8 4.6 1.2 6.5L12 17.4 6.1 20.5l1.2-6.5L2.5 9.4l6.6-.9z"/></svg>26,0 mil</span><span title="Forks no total"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="18" r="2.6"/><circle cx="6" cy="6" r="2.6"/><circle cx="18" cy="6" r="2.6"/><path d="M18 8.6V10a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 6 10V8.6M12 11.5v3.9"/></svg>2.347</span><a class="gh-ts" href="https://trendshift.io/repositories/310225" target="_blank" rel="noopener noreferrer" title="Ver no Trendshift">trendshift ↗</a></div>
-  </div>
-  <span class="gh-today" title="Estrelas ganhas hoje (dia UTC) · pontuação Trendshift 4514"><b>+2.112</b><small>★ hoje</small></span>
-</li>
-<li class="gh-row">
   <span class="gh-rank">5</span>
   <div class="gh-body">
     <a class="gh-name" href="https://github.com/luongnv89/claude-howto" target="_blank" rel="noopener noreferrer"><span class="gh-owner">luongnv89/</span>claude-howto</a>
@@ -629,26 +630,6 @@ footer b{font:800 18px/1 var(--serif);color:var(--ink)}
     <div class="gh-meta"><span class="gh-lang"><i style="background:#3572A5"></i>Python</span><span title="Estrelas no total"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2.5l2.9 6 6.6.9-4.8 4.6 1.2 6.5L12 17.4 6.1 20.5l1.2-6.5L2.5 9.4l6.6-.9z"/></svg>43,6 mil</span><span title="Forks no total"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="18" r="2.6"/><circle cx="6" cy="6" r="2.6"/><circle cx="18" cy="6" r="2.6"/><path d="M18 8.6V10a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 6 10V8.6M12 11.5v3.9"/></svg>5.584</span><a class="gh-ts" href="https://trendshift.io/repositories/24227" target="_blank" rel="noopener noreferrer" title="Ver no Trendshift">trendshift ↗</a></div>
   </div>
   <span class="gh-today" title="Estrelas ganhas hoje (dia UTC) · pontuação Trendshift 4462"><b>+554</b><small>★ hoje</small></span>
-</li>
-<li class="gh-row">
-  <span class="gh-rank">6</span>
-  <div class="gh-body">
-    <a class="gh-name" href="https://github.com/morluto/rea" target="_blank" rel="noopener noreferrer"><span class="gh-owner">morluto/</span>rea</a>
-    <p class="gh-pt">Faça engenharia reversa de qualquer coisa com agentes, do comportamento de apps até binários nativos.</p>
-    <p class="gh-en">Reverse engineer anything with agents, from app behavior down to native binaries.</p>
-    <div class="gh-meta"><span class="gh-lang"><i style="background:#3178c6"></i>TypeScript</span><span title="Estrelas no total"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2.5l2.9 6 6.6.9-4.8 4.6 1.2 6.5L12 17.4 6.1 20.5l1.2-6.5L2.5 9.4l6.6-.9z"/></svg>369 mil</span><span title="Forks no total"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="18" r="2.6"/><circle cx="6" cy="6" r="2.6"/><circle cx="18" cy="6" r="2.6"/><path d="M18 8.6V10a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 6 10V8.6M12 11.5v3.9"/></svg>92,9 mil</span><a class="gh-ts" href="https://trendshift.io/repositories/82054" target="_blank" rel="noopener noreferrer" title="Ver no Trendshift">trendshift ↗</a></div>
-  </div>
-  <span class="gh-today" title="Estrelas ganhas hoje (dia UTC) · pontuação Trendshift 3652"><b>+3.686</b><small>★ hoje</small></span>
-</li>
-<li class="gh-row">
-  <span class="gh-rank">7</span>
-  <div class="gh-body">
-    <a class="gh-name" href="https://github.com/cloudflare/security-audit-skill" target="_blank" rel="noopener noreferrer"><span class="gh-owner">cloudflare/</span>security-audit-skill</a>
-    <p class="gh-pt">Uma skill para agentes de programação que faz auditorias de segurança em várias fases, com achados verificados de forma independente e legíveis por máquina.</p>
-    <p class="gh-en">A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings</p>
-    <div class="gh-meta"><span class="gh-lang"><i style="background:#f1e05a"></i>JavaScript</span><span title="Estrelas no total"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2.5l2.9 6 6.6.9-4.8 4.6 1.2 6.5L12 17.4 6.1 20.5l1.2-6.5L2.5 9.4l6.6-.9z"/></svg>40,4 mil</span><span title="Forks no total"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="18" r="2.6"/><circle cx="6" cy="6" r="2.6"/><circle cx="18" cy="6" r="2.6"/><path d="M18 8.6V10a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 6 10V8.6M12 11.5v3.9"/></svg>2.538</span><a class="gh-ts" href="https://trendshift.io/repositories/64056" target="_blank" rel="noopener noreferrer" title="Ver no Trendshift">trendshift ↗</a></div>
-  </div>
-  <span class="gh-today" title="Estrelas ganhas hoje (dia UTC) · pontuação Trendshift 3504"><b>+1.108</b><small>★ hoje</small></span>
 </li>
 <li class="gh-row">
   <span class="gh-rank">8</span>
@@ -700,26 +681,6 @@ footer b{font:800 18px/1 var(--serif);color:var(--ink)}
   <span class="gh-today" title="Estrelas ganhas hoje (dia UTC) · pontuação Trendshift 2398"><b>+297</b><small>★ hoje</small></span>
 </li>
 <li class="gh-row">
-  <span class="gh-rank">13</span>
-  <div class="gh-body">
-    <a class="gh-name" href="https://github.com/deepseek-ai/deepseek-harness" target="_blank" rel="noopener noreferrer"><span class="gh-owner">deepseek-ai/</span>deepseek-harness</a>
-    <p class="gh-pt">DeepSeek Harness: tudo é um plugin.</p>
-    <p class="gh-en">DeepSeek Harness: Everything is a Plugin.</p>
-    <div class="gh-meta"><span class="gh-lang"><i style="background:#3178c6"></i>TypeScript</span><span title="Estrelas no total"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2.5l2.9 6 6.6.9-4.8 4.6 1.2 6.5L12 17.4 6.1 20.5l1.2-6.5L2.5 9.4l6.6-.9z"/></svg>259 mil</span><span title="Forks no total"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="18" r="2.6"/><circle cx="6" cy="6" r="2.6"/><circle cx="18" cy="6" r="2.6"/><path d="M18 8.6V10a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 6 10V8.6M12 11.5v3.9"/></svg>33,0 mil</span><a class="gh-ts" href="https://trendshift.io/repositories/146135" target="_blank" rel="noopener noreferrer" title="Ver no Trendshift">trendshift ↗</a></div>
-  </div>
-  <span class="gh-today" title="Estrelas ganhas hoje (dia UTC) · pontuação Trendshift 2318"><b>+693</b><small>★ hoje</small></span>
-</li>
-<li class="gh-row">
-  <span class="gh-rank">14</span>
-  <div class="gh-body">
-    <a class="gh-name" href="https://github.com/pengchujin/aerial-tv" target="_blank" rel="noopener noreferrer"><span class="gh-owner">pengchujin/</span>aerial-tv</a>
-    <p class="gh-pt">Uma área de trabalho limpa para TVs chinesas: launcher open-source para Android TV inspirado no tvOS, sem anúncios, que assume o controle ao ligar. Um launcher no estilo tvOS para Xiaomi, TCL e outras TVs do mercado chinês.</p>
-    <p class="gh-en">给国产电视的一块干净桌面：参照 tvOS 设计的开源 Android TV 桌面，没有广告，开机自动接管。A tvOS-style launcher for Xiaomi, TCL and other China-market TVs.</p>
-    <div class="gh-meta"><span class="gh-lang"><i style="background:#A97BFF"></i>Kotlin</span><span title="Estrelas no total"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2.5l2.9 6 6.6.9-4.8 4.6 1.2 6.5L12 17.4 6.1 20.5l1.2-6.5L2.5 9.4l6.6-.9z"/></svg>3.542</span><span title="Forks no total"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="18" r="2.6"/><circle cx="6" cy="6" r="2.6"/><circle cx="18" cy="6" r="2.6"/><path d="M18 8.6V10a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 6 10V8.6M12 11.5v3.9"/></svg>193</span><a class="gh-ts" href="https://trendshift.io/repositories/312629" target="_blank" rel="noopener noreferrer" title="Ver no Trendshift">trendshift ↗</a></div>
-  </div>
-  <span class="gh-today" title="Estrelas ganhas hoje (dia UTC) · pontuação Trendshift 2307"><b>+505</b><small>★ hoje</small></span>
-</li>
-<li class="gh-row">
   <span class="gh-rank">15</span>
   <div class="gh-body">
     <a class="gh-name" href="https://github.com/Revivedx/SavageWindRecomp" target="_blank" rel="noopener noreferrer"><span class="gh-owner">Revivedx/</span>SavageWindRecomp</a>
@@ -730,26 +691,6 @@ footer b{font:800 18px/1 var(--serif);color:var(--ink)}
   <span class="gh-today" title="Estrelas ganhas hoje (dia UTC) · pontuação Trendshift 2280"><b>+285</b><small>★ hoje</small></span>
 </li>
 <li class="gh-row">
-  <span class="gh-rank">16</span>
-  <div class="gh-body">
-    <a class="gh-name" href="https://github.com/jbiaojerry/ebook-treasure-chest" target="_blank" rel="noopener noreferrer"><span class="gh-owner">jbiaojerry/</span>ebook-treasure-chest</a>
-    <p class="gh-pt">Bem-vindo ao tesouro de downloads de e-books, um lugar que reúne links para baixar todo tipo de livro digital. Seja literatura clássica, negócios e autoajuda, aprendizado contínuo, carreira e empreendedorismo, manuais técnicos ou outros gêneros, aqui há o que você procura. O acervo cobre a maior parte dos e-books de apps de leitura como Fanshu (antigo Fandeng Dushu), WeChat Reading, JD Reading e Ximalaya.</p>
-    <p class="gh-en">欢迎来到电子书下载宝库，一个汇聚了各类电子书下载链接的地方。无论你是喜欢阅读经典文学、经管励志、终身学习、职场创业、技术手册还是其他类型的书籍，这里都能满足你的需求。 该库涵盖了帆书app(原樊登读书)、微信读书、京东读书、喜马拉雅等读书app的大部分电子书。</p>
-    <div class="gh-meta"><span class="gh-lang"><i style="background:#3572A5"></i>Python</span><span title="Estrelas no total"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2.5l2.9 6 6.6.9-4.8 4.6 1.2 6.5L12 17.4 6.1 20.5l1.2-6.5L2.5 9.4l6.6-.9z"/></svg>22,0 mil</span><span title="Forks no total"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="18" r="2.6"/><circle cx="6" cy="6" r="2.6"/><circle cx="18" cy="6" r="2.6"/><path d="M18 8.6V10a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 6 10V8.6M12 11.5v3.9"/></svg>3.141</span><a class="gh-ts" href="https://trendshift.io/repositories/25923" target="_blank" rel="noopener noreferrer" title="Ver no Trendshift">trendshift ↗</a></div>
-  </div>
-  <span class="gh-today" title="Estrelas ganhas hoje (dia UTC) · pontuação Trendshift 2113"><b>+332</b><small>★ hoje</small></span>
-</li>
-<li class="gh-row">
-  <span class="gh-rank">17</span>
-  <div class="gh-body">
-    <a class="gh-name" href="https://github.com/Graphify-Labs/graphify" target="_blank" rel="noopener noreferrer"><span class="gh-owner">Graphify-Labs/</span>graphify</a>
-    <p class="gh-pt">Transforma qualquer base de código, com documentação, esquemas SQL, configurações e PDFs, num grafo de conhecimento consultável. Uma skill /graphify para Claude Code, Cursor, Codex e Gemini CLI: análise de AST local e determinística, cada aresta explicada, sem banco vetorial.</p>
-    <p class="gh-en">Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill for Claude Code, Cursor, Codex, and Gemini CLI: local deterministic AST parsing, every edge explained, no vector store.</p>
-    <div class="gh-meta"><span class="gh-lang"><i style="background:#3572A5"></i>Python</span><span title="Estrelas no total"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2.5l2.9 6 6.6.9-4.8 4.6 1.2 6.5L12 17.4 6.1 20.5l1.2-6.5L2.5 9.4l6.6-.9z"/></svg>133 mil</span><span title="Forks no total"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="18" r="2.6"/><circle cx="6" cy="6" r="2.6"/><circle cx="18" cy="6" r="2.6"/><path d="M18 8.6V10a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 6 10V8.6M12 11.5v3.9"/></svg>13,4 mil</span><a class="gh-ts" href="https://trendshift.io/repositories/25296" target="_blank" rel="noopener noreferrer" title="Ver no Trendshift">trendshift ↗</a></div>
-  </div>
-  <span class="gh-today" title="Estrelas ganhas hoje (dia UTC) · pontuação Trendshift 2061"><b>+602</b><small>★ hoje</small></span>
-</li>
-<li class="gh-row">
   <span class="gh-rank">18</span>
   <div class="gh-body">
     <a class="gh-name" href="https://github.com/wesbos/3d-model-anything" target="_blank" rel="noopener noreferrer"><span class="gh-owner">wesbos/</span>3d-model-anything</a>
@@ -758,26 +699,6 @@ footer b{font:800 18px/1 var(--serif);color:var(--ink)}
     <div class="gh-meta"><span class="gh-lang"><i style="background:#F05138"></i>Swift</span><span title="Estrelas no total"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2.5l2.9 6 6.6.9-4.8 4.6 1.2 6.5L12 17.4 6.1 20.5l1.2-6.5L2.5 9.4l6.6-.9z"/></svg>709</span><span title="Forks no total"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="18" r="2.6"/><circle cx="6" cy="6" r="2.6"/><circle cx="18" cy="6" r="2.6"/><path d="M18 8.6V10a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 6 10V8.6M12 11.5v3.9"/></svg>15</span><a class="gh-ts" href="https://trendshift.io/repositories/316100" target="_blank" rel="noopener noreferrer" title="Ver no Trendshift">trendshift ↗</a></div>
   </div>
   <span class="gh-today" title="Estrelas ganhas hoje (dia UTC) · pontuação Trendshift 2024"><b>+253</b><small>★ hoje</small></span>
-</li>
-<li class="gh-row">
-  <span class="gh-rank">19</span>
-  <div class="gh-body">
-    <a class="gh-name" href="https://github.com/Ebony-Vinyl/dsh-our-free-model" target="_blank" rel="noopener noreferrer"><span class="gh-owner">Ebony-Vinyl/</span>dsh-our-free-model</a>
-    <p class="gh-pt">Basta instalar este plugin no dsh: sem login, cadastro nem chave de API, você usa modelos de ponta como DeepSeek V4.1 Flash e Kimi K3, totalmente grátis e sem limite de uso.</p>
-    <p class="gh-en">在 dsh 里装上这个插件即可，无需登录、注册或填 API Key，就能使用包括 DeepSeek V4.1 Flash、Kimi K3 在内的前沿模型——完全免费，不限量。 All you do is install this plugin in dsh: no login, no sign-up, no API key — the frontier models are just there, DeepSeek V4.1 Flash and Kimi K3 among them. Completely free, with no usage cap.</p>
-    <div class="gh-meta"><span class="gh-lang"><i style="background:#f1e05a"></i>JavaScript</span><span title="Estrelas no total"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2.5l2.9 6 6.6.9-4.8 4.6 1.2 6.5L12 17.4 6.1 20.5l1.2-6.5L2.5 9.4l6.6-.9z"/></svg>37,8 mil</span><span title="Forks no total"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="18" r="2.6"/><circle cx="6" cy="6" r="2.6"/><circle cx="18" cy="6" r="2.6"/><path d="M18 8.6V10a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 6 10V8.6M12 11.5v3.9"/></svg>1.054</span><a class="gh-ts" href="https://trendshift.io/repositories/261203" target="_blank" rel="noopener noreferrer" title="Ver no Trendshift">trendshift ↗</a></div>
-  </div>
-  <span class="gh-today" title="Estrelas ganhas hoje (dia UTC) · pontuação Trendshift 1993"><b>+1.334</b><small>★ hoje</small></span>
-</li>
-<li class="gh-row">
-  <span class="gh-rank">20</span>
-  <div class="gh-body">
-    <a class="gh-name" href="https://github.com/DietrichGebert/ponytail" target="_blank" rel="noopener noreferrer"><span class="gh-owner">DietrichGebert/</span>ponytail</a>
-    <p class="gh-pt">Faz seu agente de IA pensar como o dev sênior mais preguiçoso da sala. O melhor código é o que você nunca escreveu.</p>
-    <p class="gh-en">Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.</p>
-    <div class="gh-meta"><span class="gh-lang"><i style="background:#f1e05a"></i>JavaScript</span><span title="Estrelas no total"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2.5l2.9 6 6.6.9-4.8 4.6 1.2 6.5L12 17.4 6.1 20.5l1.2-6.5L2.5 9.4l6.6-.9z"/></svg>174 mil</span><span title="Forks no total"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="18" r="2.6"/><circle cx="6" cy="6" r="2.6"/><circle cx="18" cy="6" r="2.6"/><path d="M18 8.6V10a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 6 10V8.6M12 11.5v3.9"/></svg>9.960</span><a class="gh-ts" href="https://trendshift.io/repositories/50668" target="_blank" rel="noopener noreferrer" title="Ver no Trendshift">trendshift ↗</a></div>
-  </div>
-  <span class="gh-today" title="Estrelas ganhas hoje (dia UTC) · pontuação Trendshift 1915"><b>+867</b><small>★ hoje</small></span>
 </li>
 <li class="gh-row">
   <span class="gh-rank">21</span>
@@ -798,16 +719,6 @@ footer b{font:800 18px/1 var(--serif);color:var(--ink)}
     <div class="gh-meta"><span class="gh-lang"><i style="background:#f1e05a"></i>JavaScript</span><span title="Estrelas no total"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2.5l2.9 6 6.6.9-4.8 4.6 1.2 6.5L12 17.4 6.1 20.5l1.2-6.5L2.5 9.4l6.6-.9z"/></svg>88,0 mil</span><span title="Forks no total"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="18" r="2.6"/><circle cx="6" cy="6" r="2.6"/><circle cx="18" cy="6" r="2.6"/><path d="M18 8.6V10a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 6 10V8.6M12 11.5v3.9"/></svg>6.316</span><a class="gh-ts" href="https://trendshift.io/repositories/31352" target="_blank" rel="noopener noreferrer" title="Ver no Trendshift">trendshift ↗</a></div>
   </div>
   <span class="gh-today" title="Estrelas ganhas hoje (dia UTC) · pontuação Trendshift 1770"><b>+461</b><small>★ hoje</small></span>
-</li>
-<li class="gh-row">
-  <span class="gh-rank">23</span>
-  <div class="gh-body">
-    <a class="gh-name" href="https://github.com/hugohe3/ppt-master" target="_blank" rel="noopener noreferrer"><span class="gh-owner">hugohe3/</span>ppt-master</a>
-    <p class="gh-pt">IA que transforma documentos ou temas em apresentações de PowerPoint reais e nativas, com formas, transições e animações nativas, gráficos e tabelas com dados sob demanda, narração em áudio a partir das notas do apresentador e suporte aos seus próprios modelos .pptx. Por Hugo He.</p>
-    <p class="gh-en">AI turns documents or topics into real, native PowerPoint decks—with native shapes, transitions and animations, data-backed charts and tables on demand, audio narration from speaker notes, and support for your own .pptx templates. · by Hugo He</p>
-    <div class="gh-meta"><span class="gh-lang"><i style="background:#3572A5"></i>Python</span><span title="Estrelas no total"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2.5l2.9 6 6.6.9-4.8 4.6 1.2 6.5L12 17.4 6.1 20.5l1.2-6.5L2.5 9.4l6.6-.9z"/></svg>66,4 mil</span><span title="Forks no total"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="18" r="2.6"/><circle cx="6" cy="6" r="2.6"/><circle cx="18" cy="6" r="2.6"/><path d="M18 8.6V10a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 6 10V8.6M12 11.5v3.9"/></svg>5.452</span><a class="gh-ts" href="https://trendshift.io/repositories/25760" target="_blank" rel="noopener noreferrer" title="Ver no Trendshift">trendshift ↗</a></div>
-  </div>
-  <span class="gh-today" title="Estrelas ganhas hoje (dia UTC) · pontuação Trendshift 1714"><b>+450</b><small>★ hoje</small></span>
 </li>
 <li class="gh-row">
   <span class="gh-rank">24</span>
@@ -836,6 +747,7 @@ footer b{font:800 18px/1 var(--serif);color:var(--ink)}
     <h2><small>Seção 4</small>YouTube</h2>
     <p>63 vídeos publicados em 22/10 por 26 dos 48 canais acompanhados. Horários de Brasília, do mais recente ao mais antigo.</p>
   </div>
+  <aside class="ytt" aria-label="Tendências nos títulos"><div class="ytt-k">Tendências nos títulos</div><p class="ytt-i">Assuntos que apareceram em canais diferentes no mesmo dia — sinal de lançamento ou tema em alta.</p><ul><li><div class="ytt-h"><b>Kling 4.0</b><span class="ytt-n">3 canais</span></div><p>O novo modelo de vídeo da Kling apareceu em três canais: comparativo com outras 8 IAs, duelo com o Seedance 2.5 e uso para criar sites.</p><div class="ytt-ch">Azev • Renda Online com IA · Jack Vs. AI · Viktor Oddy</div><div class="ytt-vs"><a class="ytt-v" href="https://www.youtube.com/watch?v=rf9qFYYia0w" target="_blank" rel="noopener noreferrer" title="Azev • Renda Online com IA — Kling 4.0 vs 8 IAs: Qual é a melhor de verdade?"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg><span>Kling 4.0 vs 8 IAs: Qual é a melhor de verdade?</span></a><a class="ytt-v" href="https://www.youtube.com/watch?v=xIgdqAhc-nQ" target="_blank" rel="noopener noreferrer" title="Jack Vs. AI — Kling 4 is FINALLY Here… Can It Beat Seedance 2.5?"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg><span>Kling 4 is FINALLY Here… Can It Beat Seedance 2.5?</span></a><a class="ytt-v" href="https://www.youtube.com/watch?v=B9_7jowi3zw" target="_blank" rel="noopener noreferrer" title="Viktor Oddy — How I Make Beautiful AI Websites with Kling 4.0 - Full Guide"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg><span>How I Make Beautiful AI Websites with Kling 4.0 - Full Guide</span></a></div></li><li><div class="ytt-h"><b>Claude Duet</b><span class="ytt-n">2 canais</span></div><p>O novo agente da Anthropic ganhou vídeo de apresentação e uma análise do que ele muda na prática.</p><div class="ytt-ch">Julian Goldie SEO · Duncan Rogoff | Learn Claude Code</div><div class="ytt-vs"><a class="ytt-v" href="https://www.youtube.com/watch?v=FQHEPxhHNII" target="_blank" rel="noopener noreferrer" title="Julian Goldie SEO — Claude Duet: Claude’s New AI Agent Is Here"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg><span>Claude Duet: Claude’s New AI Agent Is Here</span></a><a class="ytt-v" href="https://www.youtube.com/watch?v=5uLiXwrEirc" target="_blank" rel="noopener noreferrer" title="Duncan Rogoff | Learn Claude Code — Claude Duet is For Real. What You Need to Know."><svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg><span>Claude Duet is For Real. What You Need to Know.</span></a></div></li><li><div class="ytt-h"><b>Claude na edição de vídeo</b><span class="ytt-n">2 canais</span></div><p>Dois canais mostram o Claude entrando no fluxo de vídeo: motion design e direção de edição a partir das filmagens.</p><div class="ytt-ch">Jack Roberts · Andy Diep</div><div class="ytt-vs"><a class="ytt-v" href="https://www.youtube.com/watch?v=dw29554HucM" target="_blank" rel="noopener noreferrer" title="Jack Roberts — Claude Just Killed Motion Designers"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg><span>Claude Just Killed Motion Designers</span></a><a class="ytt-v" href="https://www.youtube.com/watch?v=f_M68vg02Gg" target="_blank" rel="noopener noreferrer" title="Andy Diep — How I tell Claude exactly where my footage is"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg><span>How I tell Claude exactly where my footage is</span></a></div></li><li><div class="ytt-h"><b>Agentes do Grok Bot</b><span class="ytt-n">2 canais</span></div><p>Atualizações e velocidade dos agentes do Grok Bot, além de uma lista de agentes para automatizar a rotina.</p><div class="ytt-ch">Julian Goldie SEO · Jack Roberts</div><div class="ytt-vs"><a class="ytt-v" href="https://www.youtube.com/watch?v=e56vsm9x-Eg" target="_blank" rel="noopener noreferrer" title="Julian Goldie SEO — Grok Bot Is INSANE! 3X Faster AI Agents?!"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg><span>Grok Bot Is INSANE! 3X Faster AI Agents?!</span></a><a class="ytt-v" href="https://www.youtube.com/watch?v=cuU4ipKT7ZE" target="_blank" rel="noopener noreferrer" title="Julian Goldie SEO — Grok Bot Just Got a NEW Update!"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg><span>Grok Bot Just Got a NEW Update!</span></a><a class="ytt-v" href="https://www.youtube.com/watch?v=2Vscrsz89MY" target="_blank" rel="noopener noreferrer" title="Jack Roberts — 7 GrokBot Agents to Run 95% of Your Life"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg><span>7 GrokBot Agents to Run 95% of Your Life</span></a></div></li><li><div class="ytt-h"><b>Modelos menores e baratos em teste</b><span class="ytt-n">3 canais</span></div><p>MiniMax, DeepSeek, Haiku, Gemini e o Flint foram colocados à prova contra rivais, com foco em custo e desempenho.</p><div class="ytt-ch">Rafael Quintanilha – QuantBrasil · AI ProgBr · Julian Goldie SEO</div><div class="ytt-vs"><a class="ytt-v" href="https://www.youtube.com/watch?v=aVd-_j1aUBE" target="_blank" rel="noopener noreferrer" title="Rafael Quintanilha – QuantBrasil — Testei DeepSeek, MiniMax, Haiku e Gemini na mesma tarefa"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg><span>Testei DeepSeek, MiniMax, Haiku e Gemini na mesma tarefa</span></a><a class="ytt-v" href="https://www.youtube.com/watch?v=JtVXrZguGwY" target="_blank" rel="noopener noreferrer" title="AI ProgBr — Flint: vale trocar o Qwen 35B por esse modelo Americano de 40B?"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg><span>Flint: vale trocar o Qwen 35B por esse modelo Americano de 40B?</span></a><a class="ytt-v" href="https://www.youtube.com/watch?v=gNdvf63OgKY" target="_blank" rel="noopener noreferrer" title="Julian Goldie SEO — NEW MiniMax M3.1 Flash: Space Performance + Bunny Speed Just Dropped!"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg><span>NEW MiniMax M3.1 Flash: Space Performance + Bunny Speed Just Dropped!</span></a></div></li><li><div class="ytt-h"><b>Ferramentas de IA do Google</b><span class="ytt-n">2 canais</span></div><p>Lançamentos discretos e gratuitos do Google — Nano Banana no Flow, agentes de busca e um pacote de 5 ferramentas grátis.</p><div class="ytt-ch">Jay E | RoboNuggets · Julian Goldie SEO</div><div class="ytt-vs"><a class="ytt-v" href="https://www.youtube.com/watch?v=mVeuPp46UKE" target="_blank" rel="noopener noreferrer" title="Jay E | RoboNuggets — Google quietly released 5 free AI tools #shorts"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg><span>Google quietly released 5 free AI tools #shorts</span></a><a class="ytt-v" href="https://www.youtube.com/watch?v=V49am1Idm68" target="_blank" rel="noopener noreferrer" title="Julian Goldie SEO — Nano Banana 2.1 Is Now FREE in Google Flow!"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg><span>Nano Banana 2.1 Is Now FREE in Google Flow!</span></a><a class="ytt-v" href="https://www.youtube.com/watch?v=AwzrOmGknKw" target="_blank" rel="noopener noreferrer" title="Julian Goldie SEO — NEW Google AI Search Agents are INSANE!"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg><span>NEW Google AI Search Agents are INSANE!</span></a></div></li></ul></aside>
   <div class="filters chans" id="filters" data-key="c" role="group" aria-label="Filtrar por canal: incluir ou ocultar canais"><button type="button" class="fchip reset idle" data-v="all" title="Limpar todos os filtros (Esc)"><span class="fx" aria-hidden="true">↺</span>Limpar filtros</button><button type="button" class="fchip ch" data-v="c0" data-name="Julian Goldie SEO" data-n="21" data-state="0" aria-pressed="false"><span class="fx" aria-hidden="true"></span><span class="nm">Julian Goldie SEO</span> <b>21</b></button><button type="button" class="fchip ch" data-v="c1" data-name="Vivendo de Saas" data-n="6" data-state="0" aria-pressed="false"><span class="fx" aria-hidden="true"></span><span class="nm">Vivendo de Saas</span> <b>6</b></button><button type="button" class="fchip ch" data-v="c2" data-name="Better Stack" data-n="5" data-state="0" aria-pressed="false"><span class="fx" aria-hidden="true"></span><span class="nm">Better Stack</span> <b>5</b></button><button type="button" class="fchip ch" data-v="c3" data-name="Higgsfield AI" data-n="4" data-state="0" aria-pressed="false"><span class="fx" aria-hidden="true"></span><span class="nm">Higgsfield AI</span> <b>4</b></button><button type="button" class="fchip ch" data-v="c4" data-name="Ads with Cami" data-n="2" data-state="0" aria-pressed="false"><span class="fx" aria-hidden="true"></span><span class="nm">Ads with Cami</span> <b>2</b></button><button type="button" class="fchip ch" data-v="c5" data-name="Andy Diep" data-n="2" data-state="0" aria-pressed="false"><span class="fx" aria-hidden="true"></span><span class="nm">Andy Diep</span> <b>2</b></button><button type="button" class="fchip ch" data-v="c6" data-name="Bruno Benetti" data-n="2" data-state="0" aria-pressed="false"><span class="fx" aria-hidden="true"></span><span class="nm">Bruno Benetti</span> <b>2</b></button><button type="button" class="fchip ch" data-v="c7" data-name="Jack Roberts" data-n="2" data-state="0" aria-pressed="false"><span class="fx" aria-hidden="true"></span><span class="nm">Jack Roberts</span> <b>2</b></button><button type="button" class="fchip ch" data-v="c8" data-name="OrcDev" data-n="2" data-state="0" aria-pressed="false"><span class="fx" aria-hidden="true"></span><span class="nm">OrcDev</span> <b>2</b></button><button type="button" class="fchip ch" data-v="c9" data-name="AI ProgBr" data-n="1" data-state="0" aria-pressed="false"><span class="fx" aria-hidden="true"></span><span class="nm">AI ProgBr</span> <b>1</b></button><button type="button" class="fchip ch" data-v="c10" data-name="Azev • Renda Online com IA" data-n="1" data-state="0" aria-pressed="false"><span class="fx" aria-hidden="true"></span><span class="nm">Azev • Renda Online com IA</span> <b>1</b></button><button type="button" class="fchip ch" data-v="c11" data-name="Duncan Rogoff | Learn Claude Code" data-n="1" data-state="0" aria-pressed="false"><span class="fx" aria-hidden="true"></span><span class="nm">Duncan Rogoff | Learn Claude Code</span> <b>1</b></button><button type="button" class="fchip ch" data-v="c12" data-name="Erickson Lourenco" data-n="1" data-state="0" aria-pressed="false"><span class="fx" aria-hidden="true"></span><span class="nm">Erickson Lourenco</span> <b>1</b></button><button type="button" class="fchip ch" data-v="c13" data-name="Ethan Robbins" data-n="1" data-state="0" aria-pressed="false"><span class="fx" aria-hidden="true"></span><span class="nm">Ethan Robbins</span> <b>1</b></button><button type="button" class="fchip ch" data-v="c14" data-name="Fernando Miranda - Marketing, Vendas &amp; Growth" data-n="1" data-state="0" aria-pressed="false"><span class="fx" aria-hidden="true"></span><span class="nm">Fernando Miranda - Marketing, Vendas &amp; Growth</span> <b>1</b></button><button type="button" class="fchip ch" data-v="c15" data-name="Gabriel Adamuchi - IA Fácil" data-n="1" data-state="0" aria-pressed="false"><span class="fx" aria-hidden="true"></span><span class="nm">Gabriel Adamuchi - IA Fácil</span> <b>1</b></button><button type="button" class="fchip ch" data-v="c16" data-name="Jack Vs. AI" data-n="1" data-state="0" aria-pressed="false"><span class="fx" aria-hidden="true"></span><span class="nm">Jack Vs. AI</span> <b>1</b></button><button type="button" class="fchip ch" data-v="c17" data-name="Jay E | RoboNuggets" data-n="1" data-state="0" aria-pressed="false"><span class="fx" aria-hidden="true"></span><span class="nm">Jay E | RoboNuggets</span> <b>1</b></button><button type="button" class="fchip ch" data-v="c18" data-name="Jordan Platten" data-n="1" data-state="0" aria-pressed="false"><span class="fx" aria-hidden="true"></span><span class="nm">Jordan Platten</span> <b>1</b></button><button type="button" class="fchip ch" data-v="c19" data-name="nando.mp4" data-n="1" data-state="0" aria-pressed="false"><span class="fx" aria-hidden="true"></span><span class="nm">nando.mp4</span> <b>1</b></button><button type="button" class="fchip ch" data-v="c20" data-name="Open Projects" data-n="1" data-state="0" aria-pressed="false"><span class="fx" aria-hidden="true"></span><span class="nm">Open Projects</span> <b>1</b></button><button type="button" class="fchip ch" data-v="c21" data-name="Pedro Vence" data-n="1" data-state="0" aria-pressed="false"><span class="fx" aria-hidden="true"></span><span class="nm">Pedro Vence</span> <b>1</b></button><button type="button" class="fchip ch" data-v="c22" data-name="Rafael Quintanilha – QuantBrasil" data-n="1" data-state="0" aria-pressed="false"><span class="fx" aria-hidden="true"></span><span class="nm">Rafael Quintanilha – QuantBrasil</span> <b>1</b></button><button type="button" class="fchip ch" data-v="c23" data-name="The Metaverse Guy" data-n="1" data-state="0" aria-pressed="false"><span class="fx" aria-hidden="true"></span><span class="nm">The Metaverse Guy</span> <b>1</b></button><button type="button" class="fchip ch" data-v="c24" data-name="Unlocked AI Solopreneur" data-n="1" data-state="0" aria-pressed="false"><span class="fx" aria-hidden="true"></span><span class="nm">Unlocked AI Solopreneur</span> <b>1</b></button><button type="button" class="fchip ch" data-v="c25" data-name="Viktor Oddy" data-n="1" data-state="0" aria-pressed="false"><span class="fx" aria-hidden="true"></span><span class="nm">Viktor Oddy</span> <b>1</b></button></div>
   <div class="fstatus"><span id="ytcount" role="status" aria-live="polite">Mostrando 63 de 63 vídeos</span><span class="fhint" id="ythint">Clique: só este canal · 2º clique: ocultar (fica salvo) · 3º: limpar</span></div>
   <p class="yt-empty" id="ytempty" hidden>Nenhum vídeo com estes filtros. Use “Limpar filtros” para ver tudo.</p>
