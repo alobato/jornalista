@@ -1,6 +1,30 @@
 {
  "editions": [
   {
+   "date": "2026-10-24",
+   "weekday": "sáb",
+   "weekday_long": "sábado",
+   "lead_headline": "Moonshot lança o Kimi K3.1 Pro, modelo open-weight da classe de 3 trilhões de parâmetros com contexto de 1 milhão de tokens",
+   "lead_url": "https://www.kimi.ai/blog/kimi-k3-1-pro",
+   "counts": {
+    "tech": 20,
+    "ph": 10,
+    "gh": 18,
+    "yt": 58
+   },
+   "ph_top": {
+    "name": "Product Hunt Visual Launch Editor",
+    "url": "https://www.producthunt.com/products/producthunt",
+    "score": 396,
+    "tagline_pt": "Veja seu lançamento enquanto o monta."
+   },
+   "ph_day": "23/10",
+   "yt_days": "23/10",
+   "ph_status": "final",
+   "url": "edicoes/2026-10-24.html",
+   "preview": "previews/2026-10-24.jpg"
+  },
+  {
    "date": "2026-10-23",
    "weekday": "sex",
    "weekday_long": "sexta-feira",
