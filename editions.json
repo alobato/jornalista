@@ -1,6 +1,30 @@
 {
  "editions": [
   {
+   "date": "2026-10-25",
+   "weekday": "dom",
+   "weekday_long": "domingo",
+   "lead_headline": "Economista da Apollo diz que a IA ainda não deu retorno financeiro às empresas americanas fora do setor de tecnologia",
+   "lead_url": "https://www.apollo.com/wealth/insights-news/insights/daily-spark/no-signs-of-ai-payoff-outside-the-tech-sector",
+   "counts": {
+    "tech": 20,
+    "ph": 10,
+    "gh": 17,
+    "yt": 49
+   },
+   "ph_top": {
+    "name": "zCAD AI",
+    "url": "https://www.producthunt.com/products/zcad-ai",
+    "score": 300,
+    "tagline_pt": "IA 3D que cria peças de verdade, não apenas formas."
+   },
+   "ph_day": "24/10",
+   "yt_days": "24/10",
+   "ph_status": "final",
+   "url": "edicoes/2026-10-25.html",
+   "preview": "previews/2026-10-25.jpg"
+  },
+  {
    "date": "2026-10-24",
    "weekday": "sáb",
    "weekday_long": "sábado",
