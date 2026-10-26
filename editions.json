@@ -1,6 +1,30 @@
 {
  "editions": [
   {
+   "date": "2026-10-26",
+   "weekday": "seg",
+   "weekday_long": "segunda-feira",
+   "lead_headline": "Desmontagem do iPhone Duo: nota 5/10 em reparabilidade e uma pista para as telas que trincam na dobra",
+   "lead_url": "https://www.ifixit.com/News/119895/iphone-duo-teardown",
+   "counts": {
+    "tech": 19,
+    "ph": 10,
+    "gh": 13,
+    "yt": 53
+   },
+   "ph_top": {
+    "name": "Moli by Lexmount",
+    "url": "https://www.producthunt.com/products/lexmount-browser",
+    "score": 284,
+    "tagline_pt": "O navegador headless mais rápido para agentes e harnesses."
+   },
+   "ph_day": "25/10",
+   "yt_days": "25/10",
+   "ph_status": "final",
+   "url": "edicoes/2026-10-26.html",
+   "preview": "previews/2026-10-26.jpg"
+  },
+  {
    "date": "2026-10-25",
    "weekday": "dom",
    "weekday_long": "domingo",
