@@ -1,6 +1,30 @@
 {
  "editions": [
   {
+   "date": "2026-10-27",
+   "weekday": "ter",
+   "weekday_long": "terça-feira",
+   "lead_headline": "OpenAI anuncia três descobertas científicas, entre elas a prova de que a Hipótese do Tempo Exponencial é falsa",
+   "lead_url": "https://openai.com/index/building-scientific-understanding-with-academic-communities/",
+   "counts": {
+    "tech": 20,
+    "ph": 10,
+    "gh": 13,
+    "yt": 54
+   },
+   "ph_top": {
+    "name": "Strawberry 1.0",
+    "url": "https://www.producthunt.com/products/strawberry",
+    "score": 334,
+    "tagline_pt": "Navegador com IA que economiza mais de 100 horas por semana da sua equipe."
+   },
+   "ph_day": "26/10",
+   "yt_days": "26/10",
+   "ph_status": "final",
+   "url": "edicoes/2026-10-27.html",
+   "preview": "previews/2026-10-27.jpg"
+  },
+  {
    "date": "2026-10-26",
    "weekday": "seg",
    "weekday_long": "segunda-feira",
