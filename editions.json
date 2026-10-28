@@ -1,6 +1,30 @@
 {
  "editions": [
   {
+   "date": "2026-10-28",
+   "weekday": "qua",
+   "weekday_long": "quarta-feira",
+   "lead_headline": "Apple deve cobrar US$ 2.899 pelo MacBook Pro de 14\" com tela OLED sensível ao toque",
+   "lead_url": "https://www.bloomberg.com/news/articles/2026-10-27/apple-14-inch-16-inch-macbook-pro-touch-price-is-likely-2-899-laptop-details",
+   "counts": {
+    "tech": 20,
+    "ph": 10,
+    "gh": 10,
+    "yt": 49
+   },
+   "ph_top": {
+    "name": "TheySaid 4.0",
+    "url": "https://www.producthunt.com/products/theysaid",
+    "score": 358,
+    "tagline_pt": "Veja como os usuários vão reagir, direto onde você constrói."
+   },
+   "ph_day": "27/10",
+   "yt_days": "27/10",
+   "ph_status": "final",
+   "url": "edicoes/2026-10-28.html",
+   "preview": "previews/2026-10-28.jpg"
+  },
+  {
    "date": "2026-10-27",
    "weekday": "ter",
    "weekday_long": "terça-feira",
