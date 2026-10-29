@@ -1,6 +1,30 @@
 {
  "editions": [
   {
+   "date": "2026-10-29",
+   "weekday": "qui",
+   "weekday_long": "quinta-feira",
+   "lead_headline": "Apple lança MacBook Pro com tela sensível ao toque OLED PROLED XDR, logo iluminado e M5 Pro/Max; 14\" parte de US$ 2.899",
+   "lead_url": "https://www.apple.com/newsroom/2026/10/apple-unveils-groundbreaking-macbook-pro-with-proled-xdr-display/",
+   "counts": {
+    "tech": 20,
+    "ph": 10,
+    "gh": 14,
+    "yt": 63
+   },
+   "ph_top": {
+    "name": "Dedica",
+    "url": "https://www.producthunt.com/products/dedica",
+    "score": 298,
+    "tagline_pt": "Verifica se agentes de IA conseguem usar o seu site"
+   },
+   "ph_day": "28/10",
+   "yt_days": "28/10",
+   "ph_status": "final",
+   "url": "edicoes/2026-10-29.html",
+   "preview": "previews/2026-10-29.jpg"
+  },
+  {
    "date": "2026-10-28",
    "weekday": "qua",
    "weekday_long": "quarta-feira",
