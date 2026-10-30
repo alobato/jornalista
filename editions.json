@@ -1,6 +1,30 @@
 {
  "editions": [
   {
+   "date": "2026-10-30",
+   "weekday": "sex",
+   "weekday_long": "sexta-feira",
+   "lead_headline": "Binance investiga ataque de cerca de US$ 6,3 bi; laptop de DevOps comprometido pode ter aberto a porta",
+   "lead_url": "https://www.theblock.co/news/markets/2026-10-29-binance-investigating-hack-suspicious-outflows-5-billion-432171",
+   "counts": {
+    "tech": 20,
+    "ph": 10,
+    "gh": 12,
+    "yt": 33
+   },
+   "ph_top": {
+    "name": "Empacer",
+    "url": "https://www.producthunt.com/products/empacer",
+    "score": 424,
+    "tagline_pt": "O assistente com foco em voz para donos de pequenos negócios"
+   },
+   "ph_day": "29/10",
+   "yt_days": "29/10",
+   "ph_status": "final",
+   "url": "edicoes/2026-10-30.html",
+   "preview": "previews/2026-10-30.jpg"
+  },
+  {
    "date": "2026-10-29",
    "weekday": "qui",
    "weekday_long": "quinta-feira",
