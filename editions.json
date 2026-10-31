@@ -1,6 +1,30 @@
 {
  "editions": [
   {
+   "date": "2026-10-31",
+   "weekday": "sáb",
+   "weekday_long": "sábado",
+   "lead_headline": "Cópia adulterada da extensão do Claude Code no marketplace do Cursor tentava instalar backdoor SSH",
+   "lead_url": "https://cursor.com/blog/claude-code-extension-security-notice",
+   "counts": {
+    "tech": 20,
+    "ph": 10,
+    "gh": 17,
+    "yt": 34
+   },
+   "ph_top": {
+    "name": "Vaani Developer Platform",
+    "url": "https://www.producthunt.com/products/vaani-developer-platfrom",
+    "score": 361,
+    "tagline_pt": "A única estrutura de IA de voz de que você vai precisar"
+   },
+   "ph_day": "30/10",
+   "yt_days": "30/10",
+   "ph_status": "final",
+   "url": "edicoes/2026-10-31.html",
+   "preview": "previews/2026-10-31.jpg"
+  },
+  {
    "date": "2026-10-30",
    "weekday": "sex",
    "weekday_long": "sexta-feira",
