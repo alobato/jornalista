@@ -1,6 +1,30 @@
 {
  "editions": [
   {
+   "date": "2026-11-01",
+   "weekday": "dom",
+   "weekday_long": "domingo",
+   "lead_headline": "Link compartilhado do ChatGPT podia sequestrar contas de quem o abrisse",
+   "lead_url": "https://www.parameter.ai/labs/we-found-a-gap-at-openai",
+   "counts": {
+    "tech": 20,
+    "ph": 10,
+    "gh": 14,
+    "yt": 34
+   },
+   "ph_top": {
+    "name": "Specsight",
+    "url": "https://www.producthunt.com/products/specsight",
+    "score": 298,
+    "tagline_pt": "Observabilidade de produto para equipes que lançam rápido com IA"
+   },
+   "ph_day": "31/10",
+   "yt_days": "31/10",
+   "ph_status": "final",
+   "url": "edicoes/2026-11-01.html",
+   "preview": "previews/2026-11-01.jpg"
+  },
+  {
    "date": "2026-10-31",
    "weekday": "sáb",
    "weekday_long": "sábado",
