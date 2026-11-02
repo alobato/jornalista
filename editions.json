@@ -1,6 +1,30 @@
 {
  "editions": [
   {
+   "date": "2026-11-02",
+   "weekday": "seg",
+   "weekday_long": "segunda-feira",
+   "lead_headline": "Terence Tao, que já foi entusiasta, agora alerta que a IA pode destruir o processo deliberativo da matemática",
+   "lead_url": "https://www.newyorker.com/magazine/2026/11/09/the-year-math-changed-forever?currentPage=all",
+   "counts": {
+    "tech": 20,
+    "ph": 10,
+    "gh": 12,
+    "yt": 26
+   },
+   "ph_top": {
+    "name": "Screen Studio 4.0",
+    "url": "https://www.producthunt.com/products/screen-studio",
+    "score": 407,
+    "tagline_pt": "Lupa de vidro, recorte de câmera, edição pela transcrição e mais"
+   },
+   "ph_day": "01/11",
+   "yt_days": "01/11",
+   "ph_status": "final",
+   "url": "edicoes/2026-11-02.html",
+   "preview": "previews/2026-11-02.jpg"
+  },
+  {
    "date": "2026-11-01",
    "weekday": "dom",
    "weekday_long": "domingo",
