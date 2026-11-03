@@ -1,6 +1,30 @@
 {
  "editions": [
   {
+   "date": "2026-11-03",
+   "weekday": "ter",
+   "weekday_long": "terça-feira",
+   "lead_headline": "LLMs conseguem ler e escrever pesos de redes neurais: GPT-6 Astra editou os pesos do Qwen3.5-0.8B para melhorar em matemática",
+   "lead_url": "https://rikiyat.github.io/blog/weight-space-programming/",
+   "counts": {
+    "tech": 20,
+    "ph": 10,
+    "gh": 13,
+    "yt": 30
+   },
+   "ph_top": {
+    "name": "beacon.sh",
+    "url": "https://www.producthunt.com/products/asymptotelabs",
+    "score": 413,
+    "tagline_pt": "Memória open source que se aprimora sozinha para agentes de programação com IA"
+   },
+   "ph_day": "02/11",
+   "yt_days": "02/11",
+   "ph_status": "final",
+   "url": "edicoes/2026-11-03.html",
+   "preview": "previews/2026-11-03.jpg"
+  },
+  {
    "date": "2026-11-02",
    "weekday": "seg",
    "weekday_long": "segunda-feira",
