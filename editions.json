@@ -1,6 +1,30 @@
 {
  "editions": [
   {
+   "date": "2026-11-04",
+   "weekday": "qua",
+   "weekday_long": "quarta-feira",
+   "lead_headline": "Apple abre a Siri AI para todos os desenvolvedores com os betas do iOS 27.3",
+   "lead_url": "https://developer.apple.com/news/?id=gdk2umrf",
+   "counts": {
+    "tech": 20,
+    "ph": 10,
+    "gh": 12,
+    "yt": 36
+   },
+   "ph_top": {
+    "name": "AgentKit by Scalekit",
+    "url": "https://www.producthunt.com/products/scalekit",
+    "score": 404,
+    "tagline_pt": "Gateway MCP para agentes em produção que age em seu nome"
+   },
+   "ph_day": "03/11",
+   "yt_days": "03/11",
+   "ph_status": "final",
+   "url": "edicoes/2026-11-04.html",
+   "preview": "previews/2026-11-04.jpg"
+  },
+  {
    "date": "2026-11-03",
    "weekday": "ter",
    "weekday_long": "terça-feira",
