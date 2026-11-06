@@ -1,6 +1,30 @@
 {
  "editions": [
   {
+   "date": "2026-11-06",
+   "weekday": "sex",
+   "weekday_long": "sexta-feira",
+   "lead_headline": "Thinking Machines Lab apresenta o Inkling 2 Small, modelo de 594 bilhões de parâmetros, e promete liberar os pesos na próxima semana",
+   "lead_url": "https://thinkingmachines.ai/news/inkling-2-small/",
+   "counts": {
+    "tech": 20,
+    "ph": 10,
+    "gh": 17,
+    "yt": 39
+   },
+   "ph_top": {
+    "name": "Glasshand",
+    "url": "https://www.producthunt.com/products/glasshand",
+    "score": 364,
+    "tagline_pt": "Dê ao seu agente um iPhone e um Mac de verdade"
+   },
+   "ph_day": "05/11",
+   "yt_days": "05/11",
+   "ph_status": "final",
+   "url": "edicoes/2026-11-06.html",
+   "preview": "previews/2026-11-06.jpg"
+  },
+  {
    "date": "2026-11-05",
    "weekday": "qui",
    "weekday_long": "quinta-feira",
