@@ -1,6 +1,30 @@
 {
  "editions": [
   {
+   "date": "2026-11-07",
+   "weekday": "sáb",
+   "weekday_long": "sábado",
+   "lead_headline": "PSI: sistema com modelo não público da Anthropic prova a conjectura Aaronson-Ambainis, aberta desde 2008",
+   "lead_url": "https://psi.inc/research/aaronson-ambainis/",
+   "counts": {
+    "tech": 20,
+    "ph": 10,
+    "gh": 14,
+    "yt": 41
+   },
+   "ph_top": {
+    "name": "Tobira Site Agent",
+    "url": "https://www.producthunt.com/products/tobira-ai",
+    "score": 361,
+    "tagline_pt": "Transforme seu site em um agente de IA que vende para agentes de IA"
+   },
+   "ph_day": "06/11",
+   "yt_days": "06/11",
+   "ph_status": "final",
+   "url": "edicoes/2026-11-07.html",
+   "preview": "previews/2026-11-07.jpg"
+  },
+  {
    "date": "2026-11-06",
    "weekday": "sex",
    "weekday_long": "sexta-feira",
