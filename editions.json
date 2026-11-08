@@ -1,6 +1,30 @@
 {
  "editions": [
   {
+   "date": "2026-11-08",
+   "weekday": "dom",
+   "weekday_long": "domingo",
+   "lead_headline": "Coautor da Hipótese do Tempo Exponencial chama de “notícia chocante” a refutação feita pela OpenAI",
+   "lead_url": "https://www.nytimes.com/2026/11/06/science/ai-exponential-time-hypothesis.html",
+   "counts": {
+    "tech": 20,
+    "ph": 10,
+    "gh": 19,
+    "yt": 39
+   },
+   "ph_top": {
+    "name": "ChatGPT Images 2.6",
+    "url": "https://www.producthunt.com/products/openai",
+    "score": 278,
+    "tagline_pt": "Crie, edite e anime imagens com IA"
+   },
+   "ph_day": "07/11",
+   "yt_days": "07/11",
+   "ph_status": "final",
+   "url": "edicoes/2026-11-08.html",
+   "preview": "previews/2026-11-08.jpg"
+  },
+  {
    "date": "2026-11-07",
    "weekday": "sáb",
    "weekday_long": "sábado",
