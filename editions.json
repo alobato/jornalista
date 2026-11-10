@@ -1,6 +1,30 @@
 {
  "editions": [
   {
+   "date": "2026-11-10",
+   "weekday": "ter",
+   "weekday_long": "terça-feira",
+   "lead_headline": "Anthropic lança Claude Fable 5.2 e Mythos 5.2, mais rápidos e 20% mais baratos",
+   "lead_url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+   "counts": {
+    "tech": 20,
+    "ph": 10,
+    "gh": 18,
+    "yt": 49
+   },
+   "ph_top": {
+    "name": "Product Hunt MCP",
+    "url": "https://www.producthunt.com/products/producthunt",
+    "score": 425,
+    "tagline_pt": "A comunidade em que você confia, dentro do assistente que você usa"
+   },
+   "ph_day": "09/11",
+   "yt_days": "09/11",
+   "ph_status": "final",
+   "url": "edicoes/2026-11-10.html",
+   "preview": "previews/2026-11-10.jpg"
+  },
+  {
    "date": "2026-11-09",
    "weekday": "seg",
    "weekday_long": "segunda-feira",
