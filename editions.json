@@ -1,6 +1,30 @@
 {
  "editions": [
   {
+   "date": "2026-11-11",
+   "weekday": "qua",
+   "weekday_long": "quarta-feira",
+   "lead_headline": "Google libera o Gemini 4 Carbon, seu modelo mais forte, e testa enxame de agentes no Antigravity",
+   "lead_url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/",
+   "counts": {
+    "tech": 20,
+    "ph": 10,
+    "gh": 16,
+    "yt": 39
+   },
+   "ph_top": {
+    "name": "Alsona",
+    "url": "https://www.producthunt.com/products/alsona",
+    "score": 459,
+    "tagline_pt": "Agentes de IA que transformam sinais de compra em reuniões de vendas agendadas"
+   },
+   "ph_day": "10/11",
+   "yt_days": "10/11",
+   "ph_status": "final",
+   "url": "edicoes/2026-11-11.html",
+   "preview": "previews/2026-11-11.jpg"
+  },
+  {
    "date": "2026-11-10",
    "weekday": "ter",
    "weekday_long": "terça-feira",
