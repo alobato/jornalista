@@ -1,6 +1,30 @@
 {
  "editions": [
   {
+   "date": "2026-11-12",
+   "weekday": "qui",
+   "weekday_long": "quinta-feira",
+   "lead_headline": "AWS lança o AWS Emulator, que simula mais de 200 serviços localmente — e foi escrito inteiro por agentes de IA",
+   "lead_url": "https://www.geekwire.com/2026/aws-gives-developers-a-free-local-stand-in-for-its-cloud-built-from-scratch-by-ai-agents/",
+   "counts": {
+    "tech": 20,
+    "ph": 10,
+    "gh": 15,
+    "yt": 35
+   },
+   "ph_top": {
+    "name": "ScroogeFrog AI",
+    "url": "https://www.producthunt.com/products/scroogefrog-ai-antifraud",
+    "score": 300,
+    "tagline_pt": "Detecção de fraude em anúncios com IA que protege sua verba de marketing"
+   },
+   "ph_day": "11/11",
+   "yt_days": "11/11",
+   "ph_status": "final",
+   "url": "edicoes/2026-11-12.html",
+   "preview": "previews/2026-11-12.jpg"
+  },
+  {
    "date": "2026-11-11",
    "weekday": "qua",
    "weekday_long": "quarta-feira",
