@@ -1,6 +1,30 @@
 {
  "editions": [
   {
+   "date": "2026-11-13",
+   "weekday": "sex",
+   "weekday_long": "sexta-feira",
+   "lead_headline": "Google lança o Gemini 4 Hydrogen, sucessor da linha Flash, e o Orchestrator no Antigravity",
+   "lead_url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/",
+   "counts": {
+    "tech": 20,
+    "ph": 10,
+    "gh": 14,
+    "yt": 39
+   },
+   "ph_top": {
+    "name": "Plurai Simulation",
+    "url": "https://www.producthunt.com/products/plurai",
+    "score": 389,
+    "tagline_pt": "Um mundo simulado que faz seu agente melhorar a cada execução"
+   },
+   "ph_day": "12/11",
+   "yt_days": "12/11",
+   "ph_status": "final",
+   "url": "edicoes/2026-11-13.html",
+   "preview": "previews/2026-11-13.jpg"
+  },
+  {
    "date": "2026-11-12",
    "weekday": "qui",
    "weekday_long": "quinta-feira",
