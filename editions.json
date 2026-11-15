@@ -1,6 +1,30 @@
 {
  "editions": [
   {
+   "date": "2026-11-15",
+   "weekday": "dom",
+   "weekday_long": "domingo",
+   "lead_headline": "Um único roteador no Arkansas: o que derrubou o controle aéreo dos EUA na sexta",
+   "lead_url": "https://www.wsj.com/business/airlines/travel-woes-persist-as-airlines-race-to-reset-after-groundstop-f34a7f9f?st=zB6eBf",
+   "counts": {
+    "tech": 20,
+    "ph": 10,
+    "gh": 14,
+    "yt": 33
+   },
+   "ph_top": {
+    "name": "HiringNow",
+    "url": "https://www.producthunt.com/products/hiringnow",
+    "score": 274,
+    "tagline_pt": "Agente de IA que encontra vagas e se candidata antes de todo mundo"
+   },
+   "ph_day": "14/11",
+   "yt_days": "14/11",
+   "ph_status": "final",
+   "url": "edicoes/2026-11-15.html",
+   "preview": "previews/2026-11-15.jpg"
+  },
+  {
    "date": "2026-11-14",
    "weekday": "sáb",
    "weekday_long": "sábado",
