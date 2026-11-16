@@ -1,6 +1,30 @@
 {
  "editions": [
   {
+   "date": "2026-11-16",
+   "weekday": "seg",
+   "weekday_long": "segunda-feira",
+   "lead_headline": "Alibaba lança o Qwen4-Max, modelo-bandeira com 2,4 trilhões de parâmetros e contexto de 1M de tokens",
+   "lead_url": "https://qwen.ai/blog?id=qwen4-max",
+   "counts": {
+    "tech": 20,
+    "ph": 10,
+    "gh": 13,
+    "yt": 40
+   },
+   "ph_top": {
+    "name": "Rakazo",
+    "url": "https://www.producthunt.com/products/rakazo",
+    "score": 379,
+    "tagline_pt": "A alternativa de código aberto ao Grok Bot que é realmente sua"
+   },
+   "ph_day": "15/11",
+   "yt_days": "15/11",
+   "ph_status": "final",
+   "url": "edicoes/2026-11-16.html",
+   "preview": "previews/2026-11-16.jpg"
+  },
+  {
    "date": "2026-11-15",
    "weekday": "dom",
    "weekday_long": "domingo",
