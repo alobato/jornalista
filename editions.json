@@ -1,6 +1,30 @@
 {
  "editions": [
   {
+   "date": "2026-11-17",
+   "weekday": "ter",
+   "weekday_long": "terça-feira",
+   "lead_headline": "Optimizely serviu JavaScript malicioso a sites de 178 organizações, de Zoom e CNN a GitLab e IKEA",
+   "lead_url": "https://blog.report-uri.com/worlds-largest-brands-infected-with-malware-via-optimizely/",
+   "counts": {
+    "tech": 20,
+    "ph": 10,
+    "gh": 19,
+    "yt": 37
+   },
+   "ph_top": {
+    "name": "Zoom Slides",
+    "url": "https://www.producthunt.com/products/zoom",
+    "score": 295,
+    "tagline_pt": "Transforme suas reuniões do Zoom em slides prontos para apresentar"
+   },
+   "ph_day": "16/11",
+   "yt_days": "16/11",
+   "ph_status": "final",
+   "url": "edicoes/2026-11-17.html",
+   "preview": "previews/2026-11-17.jpg"
+  },
+  {
    "date": "2026-11-16",
    "weekday": "seg",
    "weekday_long": "segunda-feira",
