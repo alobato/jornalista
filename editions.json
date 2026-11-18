@@ -1,6 +1,30 @@
 {
  "editions": [
   {
+   "date": "2026-11-18",
+   "weekday": "qua",
+   "weekday_long": "quarta-feira",
+   "lead_headline": "OpenAI lança GPT-6.2 Astra e Sol no ChatGPT Work, no Codex e na API",
+   "lead_url": "https://openai.com/index/introducing-gpt-6-2-astra-sol/",
+   "counts": {
+    "tech": 20,
+    "ph": 10,
+    "gh": 18,
+    "yt": 46
+   },
+   "ph_top": {
+    "name": "Creatify Max",
+    "url": "https://www.producthunt.com/products/creatify",
+    "score": 419,
+    "tagline_pt": "Seu colega de equipe para anúncios, da estratégia à criação e ao lançamento"
+   },
+   "ph_day": "17/11",
+   "yt_days": "17/11",
+   "ph_status": "final",
+   "url": "edicoes/2026-11-18.html",
+   "preview": "previews/2026-11-18.jpg"
+  },
+  {
    "date": "2026-11-17",
    "weekday": "ter",
    "weekday_long": "terça-feira",
