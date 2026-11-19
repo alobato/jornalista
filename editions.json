@@ -1,6 +1,30 @@
 {
  "editions": [
   {
+   "date": "2026-11-19",
+   "weekday": "qui",
+   "weekday_long": "quinta-feira",
+   "lead_headline": "Google lança o Gemini 4 Neon, focado em concluir tarefas de ponta a ponta",
+   "lead_url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/",
+   "counts": {
+    "tech": 20,
+    "ph": 10,
+    "gh": 18,
+    "yt": 49
+   },
+   "ph_top": {
+    "name": "S.Space",
+    "url": "https://www.producthunt.com/products/s-space",
+    "score": 369,
+    "tagline_pt": "Sua equipe e os agentes de IA de todos, num só espaço de trabalho"
+   },
+   "ph_day": "18/11",
+   "yt_days": "18/11",
+   "ph_status": "final",
+   "url": "edicoes/2026-11-19.html",
+   "preview": "previews/2026-11-19.jpg"
+  },
+  {
    "date": "2026-11-18",
    "weekday": "qua",
    "weekday_long": "quarta-feira",
