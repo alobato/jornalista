@@ -1,6 +1,30 @@
 {
  "editions": [
   {
+   "date": "2026-11-20",
+   "weekday": "sex",
+   "weekday_long": "sexta-feira",
+   "lead_headline": "Gemini ganha ‘uso do computador’ no macOS e passa a operar apps em segundo plano",
+   "lead_url": "https://techcrunch.com/2026/11/19/google-gives-gemini-the-ability-to-use-your-mac-for-you/",
+   "counts": {
+    "tech": 20,
+    "ph": 10,
+    "gh": 19,
+    "yt": 60
+   },
+   "ph_top": {
+    "name": "TestSprite 4.0",
+    "url": "https://www.producthunt.com/products/testsprite",
+    "score": 359,
+    "tagline_pt": "Corrigiu uma coisa e quebrou outra? Este agente verifica tudo"
+   },
+   "ph_day": "19/11",
+   "yt_days": "19/11",
+   "ph_status": "final",
+   "url": "edicoes/2026-11-20.html",
+   "preview": "previews/2026-11-20.jpg"
+  },
+  {
    "date": "2026-11-19",
    "weekday": "qui",
    "weekday_long": "quinta-feira",
