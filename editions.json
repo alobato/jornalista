@@ -1,6 +1,30 @@
 {
  "editions": [
   {
+   "date": "2026-11-21",
+   "weekday": "sáb",
+   "weekday_long": "sábado",
+   "lead_headline": "Matemático da Anthropic diz ter provado a hipótese de Riemann com ajuda do Claude",
+   "lead_url": "https://www.scientificamerican.com/article/anthropic-mathematician-claims-to-prove-riemann-hypothesis-most-famous-problem-in-all-of-math/",
+   "counts": {
+    "tech": 20,
+    "ph": 10,
+    "gh": 15,
+    "yt": 50
+   },
+   "ph_top": {
+    "name": "Saparo",
+    "url": "https://www.producthunt.com/products/saparo",
+    "score": 331,
+    "tagline_pt": "Muse para compras, com pilhas de ofertas"
+   },
+   "ph_day": "20/11",
+   "yt_days": "20/11",
+   "ph_status": "final",
+   "url": "edicoes/2026-11-21.html",
+   "preview": "previews/2026-11-21.jpg"
+  },
+  {
    "date": "2026-11-20",
    "weekday": "sex",
    "weekday_long": "sexta-feira",
