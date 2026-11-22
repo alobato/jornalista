@@ -1,6 +1,30 @@
 {
  "editions": [
   {
+   "date": "2026-11-22",
+   "weekday": "dom",
+   "weekday_long": "domingo",
+   "lead_headline": "Pesquisador planta credenciais-isca em roteadores de IA e expõe vazamentos mesmo sob ‘retenção zero’",
+   "lead_url": "https://arstechnica.com/security/2026/11/a-leaky-ai-supply-chain-is-exposing-secret-user-data-at-an-alarming-rate/",
+   "counts": {
+    "tech": 16,
+    "ph": 10,
+    "gh": 18,
+    "yt": 53
+   },
+   "ph_top": {
+    "name": "AlterContacts",
+    "url": "https://www.producthunt.com/products/alter-contacts-ai-client-relationships",
+    "score": 298,
+    "tagline_pt": "Assistente de IA para relacionamento com clientes que pensa e age antes"
+   },
+   "ph_day": "21/11",
+   "yt_days": "21/11",
+   "ph_status": "final",
+   "url": "edicoes/2026-11-22.html",
+   "preview": "previews/2026-11-22.jpg"
+  },
+  {
    "date": "2026-11-21",
    "weekday": "sáb",
    "weekday_long": "sábado",
