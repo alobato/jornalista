@@ -1,6 +1,30 @@
 {
  "editions": [
   {
+   "date": "2026-11-23",
+   "weekday": "seg",
+   "weekday_long": "segunda-feira",
+   "lead_headline": "OpenAI divulga a “perplexidade” dos seus modelos e propõe ritmo guiado por métricas",
+   "lead_url": "https://openai.com/index/perplexity-and-intelligence",
+   "counts": {
+    "tech": 20,
+    "ph": 10,
+    "gh": 17,
+    "yt": 37
+   },
+   "ph_top": {
+    "name": "Yoroll",
+    "url": "https://www.producthunt.com/products/yoroll",
+    "score": 349,
+    "tagline_pt": "Crie histórias jogáveis sem um motor de jogo"
+   },
+   "ph_day": "22/11",
+   "yt_days": "22/11",
+   "ph_status": "final",
+   "url": "edicoes/2026-11-23.html",
+   "preview": "previews/2026-11-23.jpg"
+  },
+  {
    "date": "2026-11-22",
    "weekday": "dom",
    "weekday_long": "domingo",
