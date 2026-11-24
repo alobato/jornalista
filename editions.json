@@ -1,6 +1,30 @@
 {
  "editions": [
   {
+   "date": "2026-11-24",
+   "weekday": "ter",
+   "weekday_long": "terça-feira",
+   "lead_headline": "OpenAI e Cisco lançam o Shirudo, runtime open source que protege Linux sem patch",
+   "lead_url": "https://openai.com/index/introducing-shirudo/",
+   "counts": {
+    "tech": 20,
+    "ph": 10,
+    "gh": 17,
+    "yt": 55
+   },
+   "ph_top": {
+    "name": "Letter Visitors",
+    "url": "https://www.producthunt.com/products/visitors",
+    "score": 390,
+    "tagline_pt": "Veja os visitantes do seu site no próprio site"
+   },
+   "ph_day": "23/11",
+   "yt_days": "23/11",
+   "ph_status": "final",
+   "url": "edicoes/2026-11-24.html",
+   "preview": "previews/2026-11-24.jpg"
+  },
+  {
    "date": "2026-11-23",
    "weekday": "seg",
    "weekday_long": "segunda-feira",
