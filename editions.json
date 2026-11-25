@@ -1,6 +1,30 @@
 {
  "editions": [
   {
+   "date": "2026-11-25",
+   "weekday": "qua",
+   "weekday_long": "quarta-feira",
+   "lead_headline": "OpenAI publica preprint que afirma provar que o expoente da multiplicação de matrizes é exatamente 9/4",
+   "lead_url": "https://github.com/openai/math/blob/main/preprints/The-matrix-multiplication-exponent-is-nine-fourths-November-24-2026/paper.pdf",
+   "counts": {
+    "tech": 20,
+    "ph": 10,
+    "gh": 13,
+    "yt": 46
+   },
+   "ph_top": {
+    "name": "distribution.dev",
+    "url": "https://www.producthunt.com/products/distribution-dev",
+    "score": 285,
+    "tagline_pt": "Anuncie para desenvolvedores em vários sites com uma só campanha"
+   },
+   "ph_day": "24/11",
+   "yt_days": "24/11",
+   "ph_status": "final",
+   "url": "edicoes/2026-11-25.html",
+   "preview": "previews/2026-11-25.jpg"
+  },
+  {
    "date": "2026-11-24",
    "weekday": "ter",
    "weekday_long": "terça-feira",
