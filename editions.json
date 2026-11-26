@@ -1,6 +1,30 @@
 {
  "editions": [
   {
+   "date": "2026-11-26",
+   "weekday": "qui",
+   "weekday_long": "quinta-feira",
+   "lead_headline": "1Password: invasor usou conta de GitHub de funcionário para injetar código malicioso no backend",
+   "lead_url": "https://techcrunch.com/2026/11/25/1password-said-hackers-broke-into-its-internal-systems-but-customer-passwords-are-safe/",
+   "counts": {
+    "tech": 20,
+    "ph": 10,
+    "gh": 13,
+    "yt": 50
+   },
+   "ph_top": {
+    "name": "MyClaw 3.0",
+    "url": "https://www.producthunt.com/products/myclaw-3-0",
+    "score": 327,
+    "tagline_pt": "Monte uma equipe de IA sempre ativa, com memória compartilhada"
+   },
+   "ph_day": "25/11",
+   "yt_days": "25/11",
+   "ph_status": "final",
+   "url": "edicoes/2026-11-26.html",
+   "preview": "previews/2026-11-26.jpg"
+  },
+  {
    "date": "2026-11-25",
    "weekday": "qua",
    "weekday_long": "quarta-feira",
