@@ -1,6 +1,30 @@
 {
  "editions": [
   {
+   "date": "2026-11-28",
+   "weekday": "sáb",
+   "weekday_long": "sábado",
+   "lead_headline": "Hackers invadem o Cloud One, plataforma de nuvem que sustenta os aplicativos da Força Aérea dos EUA",
+   "lead_url": "https://www.reuters.com/world/hackers-breach-us-air-force-flagship-cloud-one-computing-platform-2026-11-27/",
+   "counts": {
+    "tech": 20,
+    "ph": 10,
+    "gh": 21,
+    "yt": 56
+   },
+   "ph_top": {
+    "name": "Wizstar R1",
+    "url": "https://www.producthunt.com/products/wizstar",
+    "score": 279,
+    "tagline_pt": "Vídeos de produto no nível do Seedance 2.0 por um custo menor"
+   },
+   "ph_day": "27/11",
+   "yt_days": "27/11",
+   "ph_status": "final",
+   "url": "edicoes/2026-11-28.html",
+   "preview": "previews/2026-11-28.jpg"
+  },
+  {
    "date": "2026-11-27",
    "weekday": "sex",
    "weekday_long": "sexta-feira",
